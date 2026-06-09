@@ -310,14 +310,3 @@ python src/evaluate.py
      - Execuções dos prompts v2 (otimizados) com notas ≥ 0.9
      - Tracing detalhado de pelo menos 3 exemplos
 
----
-
-## Dicas Finais
-
-- **Lembre-se da importância da especificidade, contexto e persona** ao refatorar prompts
-- **Use Few-shot Learning com 2-3 exemplos claros** para melhorar drasticamente a performance
-- **Chain of Thought (CoT)** é excelente para tarefas que exigem raciocínio complexo (como análise de PRs)
-- **Use o Tracing do LangSmith** como sua principal ferramenta de debug - ele mostra exatamente o que o LLM está "pensando"
-- **Não altere os datasets de avaliação** - apenas os prompts em `prompts/bug_to_user_story_v2.yml`
-- **Itere, itere, itere** - é normal precisar de 3-5 iterações para atingir 0.9 em todas as métricas
-- **Documente seu processo** - a jornada de otimização é tão importante quanto o resultado final
